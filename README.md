@@ -25,25 +25,21 @@ Here is a table of contents linking to NBViewer:
 21. [Reading Hierarchical Files](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2021%20-%20Reading%20Hierarchical%20Files.ipynb?flush_cache=true)
 
 Notes for the test:
-•	When a question asks how many steps (DATA or PROC) an example code has, count the number of times DATA and PROC appears
-•	When a question asks how many statements an example code has, count the number of semicolons that appear
-•	If a question asks how to specify output in any OS, use programming statements to do so
-•	When SAS reads 4-year dates from sources/informats, YEARCUTOFF = does not affect the reading of the year, but it does affect the reading of 2-year dates
-•	An engine is a set of internal instructions that SAS uses for writing to and reading from files in a SAS library
-o	Specifies the file format that is used by a particular file
-•	Base SAS exam wants you to check the log window 1st after every code submission, then check the results window
-•	When using PROC PRINT and invoking the SUM statement, column totals use the same format as the variables
-•	Syntax error checking DOES NOT verify the values of variables or the correctness of formats
-•	When SAS cannot detect syntax errors, the DATA step compiles but does not execute
-•	User-defined formats must begin with ‘$’ if applied to char variables
-•	For questions regarding which format to choose, choose the most appropriate format with the largest width allowable
-•	For questions regarding strings and length when there is an automatic conversion from numeric to character, SAS chooses the BEST12. format
-•	If variable undefined:
-o	x + 1; <- produces numeric values
-	turns missing numeric values into 0
-o	x = x + 1; <- produces missing values
-•	The MEAN function will ignore missing values and just count the ones that aren’t missing
-•	For questions using POINT = , POINT = needs to be equal to a variable name, not just an observation integer
-•	If reading inline external file, use COMMAW.D format to read any numbers with commas (,) or dollar-signs ($), or else will return missing
-•	Date formats have to be written as  ‘DDMMMYYYY’d, like so: ‘01JAN2017’d
-•	Every input statement will move the pointer down a line
+* When a question asks how many steps (DATA or PROC) an example code has, count the number of times DATA and PROC appears
+*	When a question asks how many statements an example code has, count the number of semicolons that appear
+*	If a question asks how to specify output in any OS, use programming statements to do so
+*	When SAS reads 4-year dates from sources/informats, YEARCUTOFF = does not affect the reading of the year, but it does affect the reading of 2-year dates
+*	An engine is a set of internal instructions that SAS uses for writing to and reading from files in a SAS library. Specifies the file format that is used by a particular file
+*	Base SAS exam wants you to check the log window 1st after every code submission, then check the results window
+*	When using PROC PRINT and invoking the SUM statement, column totals use the same format as the variables
+*	Syntax error checking DOES NOT verify the values of variables or the correctness of formats
+*	When SAS cannot detect syntax errors, the DATA step compiles but does not execute
+*	User-defined formats must begin with ‘$’ if applied to char variables
+*	For questions regarding which format to choose, choose the most appropriate format with the largest width allowable
+*	For questions regarding strings and length when there is an automatic conversion from numeric to character, SAS chooses the BEST12. format
+*	If variable undefined:	x + 1; <- produces numeric values, turns missing numeric values into 0,	x = x + 1; <- produces missing values
+*	The MEAN function will ignore missing values and just count the ones that aren’t missing
+*	For questions using POINT = , POINT = needs to be equal to a variable name, not just an observation integer
+*	If reading inline external file, use COMMAW.D format to read any numbers with commas (,) or dollar-signs ($), or else will return missing
+*	Date formats have to be written as  ‘DDMMMYYYY’d, like so: ‘01JAN2017’d
+*	Every input statement will move the pointer down a line
