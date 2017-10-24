@@ -4,7 +4,7 @@ Contains notes for the Base SAS 9.4 Programming Prep Guide.
 Here is a table of contents linking to NBViewer:
 01. [Base Programming](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2001%20-%20Base%20Programming.ipynb#programs?flush_cache=true)
 02. [Referencing Files and Setting Options](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2002%20-%20Referencing%20Files%20and%20Setting%20Options.ipynb?flush_cache=true)
-03. [Editing and Debugging SAS Prorgams](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2003%20-%20Editing%20and%20Debugging%20SAS%20Programs.ipynb?flush_cache=true)
+03. [Editing and Debugging SAS Programs](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2003%20-%20Editing%20and%20Debugging%20SAS%20Programs.ipynb?flush_cache=true)
 04. [Creating List Reports](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2004%20-%20Creating%20List%20Reports.ipynb?flush_cache=true)
 05. [Creating SAS Data Sets from External Files](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2005%20-%20Creating%20SAS%20Data%20Sets%20from%20External%20Files.ipynb?flush_cache=true)
 06. [Understanding DATA Step Processing](https://nbviewer.jupyter.org/github/JLeeHPA/Base-SAS-9.4-Programming-Prep-Guide/blob/master/Chapter%2006%20-%20Understanding%20DATA%20Step%20Processing.ipynb?flush_cache=true)
